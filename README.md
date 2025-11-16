@@ -14,14 +14,16 @@ It’s a learning project to deeper understand how STL works under the hood.
 
 ## Project Structure
 
-include/mstl/ # Library headers
-test/ # Unit tests
-benchmark/ # Benchmarks
-main.cpp # Demo usage
-CMakeLists.txt
+- include/mstl/ : Library headers
+- test/ : Unit tests
+- benchmark/ : Benchmarks
+- main.cpp : Demo usage
+- CMakeLists.txt
+
 
 ## Build & Run
 
+```bash
 mkdir build && cd build
 cmake ..
 make
@@ -29,6 +31,7 @@ make
 ./mini_stl      # demo
 ./tests         # run tests
 ./bench         # run benchmarks
+```
 
 License
 
