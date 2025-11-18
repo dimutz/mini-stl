@@ -17,7 +17,7 @@ class DefaultAllocator {
 	}
 
 	// deallocate raw memory
-	void deallocate(T* ptr, size_t /*n*/) { ::operator delete(ptr); }
+	void deallocate(T* ptr, std::size_t /*n*/) { ::operator delete(ptr); }
 
 	// construct object at a memory location
 	template <typename... Args>
